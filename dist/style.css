@@ -11,8 +11,7 @@
   top:0;
   width:100%;
   position: fixed;
-  font-size: 24px;
-  background-color: #CCCCFF;
+  font-size: 20px;
 }
 @media screen and (max-width:768px){
  #navbar {
@@ -21,17 +20,23 @@
 }
 body{
     background-color: #C0C0C0;
-    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-07.jpg)
+    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      
   }
-
 #slink{
-  font-size: 10px;
-  text-align: left;
-  padding: 2rem;
+  font-size: 16px;
+  text-align: center;
 }
 h2{
   text-align: center;
 }
 #social{
-  
+  display: inline-block;
+  justify-content: flex-start;
+  border-radius: 50%;
+  padding-top: 2rem;
+}
+#slink{
+  display: inline-block;
+  padding: 13rem;
 }
