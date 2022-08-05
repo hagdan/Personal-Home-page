@@ -1,42 +1,10 @@
-#welcome-section{
-  height:100vh;
-  font-size:50px;
-  margin-top: 0%;
-  margin-left: 40%;
+#img-caption
+{
+  width: 400px;
 }
-#navbar{
-  display:flex;
-  align-items: center;
-  justify-content:left;
-  top:0;
-  width:100%;
-  position: fixed;
-  font-size: 20px;
-}
-@media screen and (max-width:768px){
- #navbar {
-    font-size:10px;
-  }
-}
-body{
-    background-color: #C0C0C0;
-    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-      
-  }
-#slink{
-  font-size: 16px;
-  text-align: center;
-}
-h2{
-  text-align: center;
-}
-#social{
-  display: inline-block;
-  justify-content: flex-start;
-  border-radius: 50%;
-  padding-top: 2rem;
-}
-#slink{
-  display: inline-block;
-  padding: 13rem;
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
